@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="CSS/all.css" rel="stylesheet">
+      <style>
+        :root{
+            --color:#fe5903;
+        }
+        .text-mycolor{
+            color:var(--color) !important;
+        }
+        .bg-mycolor{
+            background: var(--color) !important;
+        }
+        .h{
+            height:45px !important;
+        }
+        #menu{
+            background: rgb(46, 45, 45) !important;
+        }
+        #menu ul li a{
+            color: white !important;
+        }
+          #menu ul li a:hover{
+            color: var(--color) !important;
+            transition: all .5s;
+          }
+          .a{
+            height:100px;
+          }
+      </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row top1 text-center py-2  bg-light">
+            <div class="col-sm-4">
+                <i class="fa-solid fa-location-dot"></i>
+               <b> Deliver to </b>: Lucknow, India
+            </div>
+             <div class="col-sm-4">
+                Free Shipping on order above 
+                <i class="fa-solid fa-indian-rupee-sign"></i>999/-
+             </div>
+              <div class="col-sm-4">
+                <i class="fa-solid fa-phone"></i>
+                 <b>Need Help?</b> +918090843007
+                <i class="fa-brands fa-facebook ms-4"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+        </div>
+
+         <div class="row top2 text-center py-3">
+            <div class="col-sm-3 fw-bold fs-2">
+                <i class="fa-solid fa-credit-card text-mycolor"></i>
+                Shop<span class="text-mycolor">Ease</span>
+            </div>
+              <div class="col-sm-6">
+                <div class="input-group">
+                    <span class="input-group-text h">
+                        All Categories
+                    </span>
+                    <input type="text" class="form-control h" placeholder="search for product">
+                    <span class="input-group-text bg-mycolor h">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </div>
+              </div>
+                <div class="col-sm-3">
+                    <i class="fa-regular fa-user fs-4"></i>
+                    Login/Register
+                    <span class=" ms-3 ps-3 border-start ">
+                        <i class="fa-solid fa-credit-card"></i> Card
+                    </span>
+                </div>
+         </div>
+          <div class="row menu">
+            <!--start menu-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu bg-success">
+            <li><a class="dropdown-item" href="#">Fruits</a></li>
+            <li><a class="dropdown-item" href="#">Grocery</a></li>
+            <li><a class="dropdown-item" href="#">Vegetables</a></li>
+          </ul>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="#">Deals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us </a>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+            <!--end menu-->
+          </div>
+           <div class="row slider">
+            <div class="col-sm-12 p-0"></div>
+            <!--start slider-->
+            <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="images/aa.jpg" style="max-height: 500px;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/aab.jpg" style="max-height: 500px;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/aaa.jpg" style="max-height: 500px;" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            <!--end slider-->
+           </div>
+           </div>
+           <div class="row">
+            <div class="col-sm-10 mx-auto">
+                <div class="row">
+                    <div class="col-sm-4">
+                         <div class="card my-3 shadow-lg border-0">
+                         <div class="row g-0">
+                        <div class="col-md-4 text-center pt-4">
+                        <i class="fa-solid fa-truck fs-2 "></i>
+                      </div>
+                     <div class="col-md-8">
+                    <div class="card-body">
+                   <p class="card-text">
+                  <b>Free Shipping<br></b>On order above 999/-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                     <div class="col-sm-4">
+                    <div class="card my-3  shadow-lg border-0" >
+                    <div class="row g-0">
+                    <div class="col-md-4 text-center pt-4">
+                    <i class="fa-solid fa-anchor-circle-check fs-2"></i>
+                   </div>
+                   <div class="col-md-8">
+                  <div class="card-body">
+                 <p class="card-text">
+                <b>Free Shipping<br></b>On order above 999/-</p>
+            </div>
+        </div>
+    </div>
+</div>
+                     </div>
+                      <div class="col-sm-4">
+                        <div class="card my-3 shadow-lg border-0" >
+                        <div class="row g-0">
+                        <div class="col-md-4  text-center pt-4">
+                        <i class="fa-solid fa-headphones fs-2"></i>
+                      </div>
+                     <div class="col-md-8">
+                   <div class="card-body">
+                 <p class="card-text">
+               <b>Free Shipping<br></b>On order above 999/-</p>
+             </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    </div>
+ </div>
+</div>
+            <div class="row">
+                <div class="col-sm-10 mx-auto">
+                    <div class="row">
+                        <div class="col-sm-12 fw-bold">
+                            <p>Top Categories 
+                                <a href="#" class="float-end text-decoration-none link-dark">View All</a> </p>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                </div>
+            </div>
+             <div class="row">
+                <!--start category-->
+                <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bc (2).jpg"   style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <b>Sample Text</b><br>
+                            <b class="text-mycolor">Shop now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+                <!--end category-->
+
+                <!--start category-->
+                <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bc1 (2).jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <b>Sample Text</b><br>
+                            <b class="text-mycolor">Shop now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+                <!--end category-->
+
+                <!--start category-->
+                <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bc2 (2).jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <b>Sample Text</b><br>
+                            <b class="text-mycolor">Shop now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+                <!--end category-->
+
+                <!--start category-->
+                <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bc3 (2).jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <b>Sample Text</b><br>
+                            <b class="text-mycolor">Shop now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+                <!--end category-->
+
+                <!--start category-->
+                <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bc4.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <b>Sample Text</b><br>
+                            <b class="text-mycolor">Shop now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+                <!--end category-->
+
+                <!--start category-->
+                <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bc5.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body text-center">
+                            <b>Sample Text</b><br>
+                            <b class="text-mycolor">Shop now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+                <!--end category-->
+             </div>
+              <div class="row">
+                <div class="col-sm-10 mx-auto">
+                  <div class="row">
+                    <div class="col-sm-12 fw-bold">
+                      <p>Popular Products
+                        <a href="#" class="float-end text-decoration-none linl-dark">View All</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div class="row">
+                <!--start category-->
+               <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bb.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body ">
+                            <b>Noise ColorFit Pro 4 Smart Watch</b><br>
+                            <b>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>(120)
+                            </b><br>
+                            <div class="my-3">
+                            <b><i class="fa-solid fa-indian-rupee-sign"></i>1,999 </b>
+                            <span><i class="fa-solid fa-indian-rupee-sign"></i>2,499</span>
+                            </div>
+                         <button class="btn bg-mycolor text-light mt-2 w-100" >Add an Card</button>
+                         </div>
+                    </div>
+                </div>
+                <!--end category-->
+                 <!--start category-->
+               <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bb1.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body ">
+                            <b>Campus Men's Sneakers Great Product</b><br>
+                            <b>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>(98)
+                            </b><br>
+                            <div class="my-3">
+                            <b><i class="fa-solid fa-indian-rupee-sign"></i>1,699 </b>
+                            <span><i class="fa-solid fa-indian-rupee-sign"></i>2,699</span>
+                            </div>
+                         <button class="btn bg-mycolor text-light mt-2 w-100" >Add an Card</button>
+                         </div>
+                    </div>
+                </div>
+                <!--end category-->
+                 <!--start category-->
+               <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bb2.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body ">
+                            <b>Skybags Brat 2 Backpack
+                              Good Product
+                            </b><br>
+                            <b>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>(76)
+                            </b><br>
+                            <div class="my-3">
+                            <b><i class="fa-solid fa-indian-rupee-sign"></i>899 </b>
+                            <span><i class="fa-solid fa-indian-rupee-sign"></i>999</span>
+                            </div>
+                         <button class="btn bg-mycolor text-light mt-2 w-100" >Add an Card</button>
+                         </div>
+                    </div>
+                </div>
+                <!--end category-->
+                 <!--start category-->
+               <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bb3.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body ">
+                            <b>Men's Hoodie Sweatshirt
+                              Good Men's Hoodie
+                            </b><br>
+                            <b>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>(55)
+                            </b><br>
+                            <div class="my-3">
+                            <b><i class="fa-solid fa-indian-rupee-sign"></i>1,499 </b>
+                            <span><i class="fa-solid fa-indian-rupee-sign"></i>1,999</span>
+                            </div>
+                         <button class="btn bg-mycolor text-light mt-2 w-100" >Add an Card</button>
+                         </div>
+                    </div>
+                </div>
+                <!--end category-->
+                 <!--start category-->
+               <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bb4.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body ">
+                            <b>Redmi Note 33(GGB|12BGB)</b><br>
+                            <b>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>(210)
+                            </b><br>
+                            <div class="my-3">
+                            <b><i class="fa-solid fa-indian-rupee-sign"></i>12,999 </b>
+                            <span><i class="fa-solid fa-indian-rupee-sign"></i>14,999</span>
+                            </div>
+                         <button class="btn bg-mycolor text-light mt-2 w-100" >Add an Card</button>
+                         </div>
+                    </div>
+                </div>
+                <!--end category-->
+                 <!--start category-->
+               <div class="col-sm-2">
+                    <div class="card shadow-lg border-0">
+                        <img src="images/bb5.jpg"  style="max-height: 150px;" class="card-img-top">
+                        <div class="card-body ">
+                            <b>Polarized UV Sunglasses</b><br>
+                            <b>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>
+                              <i class="fa-solid fa-star text-warning"></i>(64)
+                            </b><br>
+                            <div class="my-3">
+                            <b><i class="fa-solid fa-indian-rupee-sign"></i>499 </b>
+                            <span><i class="fa-solid fa-indian-rupee-sign"></i>699</span>
+                            </div>
+                         <button class="btn bg-mycolor text-light mt-2 w-100" >Add an Card</button>
+                         </div>
+                    </div>
+                </div>
+                <!--end category-->
+               </div>
+                <div class="row mx-3 my-3">
+                  <div class="col-sm-6">
+                    <img src="images/pic/WhatsApp Image 2026-09-03 at 11.28.18.jpeg" class="img-fluid">
+                  </div>
+                    <div class="col-sm-6">
+                      <img src="images/pic/WhatsApp Image 2026-09-03 at 11.28.19.jpeg" class="img-fluid">
+                    </div>
+                </div>
+                 <div class="row text-center">
+                  <div class="col-sm-12">
+                    <b>Trusted by 10,000 + Customer</b>
+                  </div>
+                 </div>
+                  <div class="row">
+                <div class="col-sm-10 mx-auto">
+                <div class="row">
+                    <div class="col-sm-3">
+                         <div class="card my-3 shadow-lg border-0">
+                         <div class="row g-0">
+                        <div class="col-md-4 text-center pt-4">
+                        <i class="fa-regular fa-money-bill-1 fs-2"></i>
+                      </div>
+                     <div class="col-md-8">
+                    <div class="card-body">
+                   <p class="card-text">
+                  <b>Great Prices<br></b>Best price everyday</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                     <div class="col-sm-3">
+                    <div class="card my-3  shadow-lg border-0" >
+                    <div class="row g-0">
+                    <div class="col-md-4 text-center pt-4">
+                    <i class="fa-solid fa-arrow-rotate-left fs-2"></i>
+                   </div>
+                   <div class="col-md-8">
+                  <div class="card-body">
+                 <p class="card-text">
+                <b>Easy Returns<br></b>Best free return</p>
+            </div>
+        </div>
+    </div>
+</div>
+                     </div>
+                      <div class="col-sm-3">
+                        <div class="card my-3 shadow-lg border-0" >
+                        <div class="row g-0">
+                        <div class="col-md-4  text-center pt-4">
+                        <i class="fa-solid fa-fire fs-2"></i>
+                      </div>
+                     <div class="col-md-8">
+                   <div class="card-body">
+                 <p class="card-text">
+               <b>100% Original<br></b>Original Product</p>
+             </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+         <div class="col-sm-3">
+                        <div class="card my-3 shadow-lg border-0" >
+                        <div class="row g-0">
+                        <div class="col-md-4  text-center pt-4">
+                        <i class="fa-solid fa-unlock-keyhole fs-2"></i>
+                      </div>
+                     <div class="col-md-8">
+                   <div class="card-body">
+                 <p class="card-text">
+               <b>Secure Shopping<br></b>Your data is safe</p>
+             </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    </div>
+ </div>
+   </div>
+<div class="row mb-3" style="background: #fff5f7;">
+  <div class="col-sm-6">
+    <div class="row">
+      <div class="col-sm-3 fs-2" style="padding-left: 150px; padding-top: 30px;">
+        <i class="fa-solid fa-envelope text-light" style=" height:50px; width:60px; background:#fe5903 ; border-radius: 50px; line-height: 50px; padding-left: 15px;"></i>
+      </div>
+      <div class="col-sm-9 p-4">
+        <h4 class="fw-bold ">Subscribe to our Newsletter</h4>
+        <p>Get the latest updates on new product and upcomming sales</p>
+      </div>
+    </div>
+   
+  </div>
+  <div class="col-sm-3 py-5">
+  <input type="email" class="fomr-control w-100 border-0" placeholder="Enter your email" style="height:50px;" >
+  </div>
+  <div class="col-sm-3 py-5">
+    <button class="btn bg-mycolor text-light w-75" style="height:50px;">Subscribe</button>
+  </div>
+</div>
+
+<div class="row  mx-auto shadow-lg bg-light" style="padding-left: 30px;">
+  <div class="col-sm-3 px-5">
+     <h3><i class="fa-solid fa-credit-card text-mycolor"></i>Shop<b class="text-mycolor">Ease</b></h3>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente in voluptate eveniet iste, fugiat dicta, 
+      minima obcaecati perspiciatis mollitia amet provident libero
+       consectetur quasi repellendus optio numquam hic! Ab, vitae!</p>
+  </div>
+  <div class="col-sm-2">
+   <h4>Quick Lists</h4>
+   <p>Home</p>
+    <p>Shop</p>
+     <p>Categories</p>
+      <p>Deals</p>
+       <p>About Us</p>
+        <p>Contact Us</p>
+  </div>
+  <div class="col-sm-2">
+    <h4>Customer Services</h4>
+    <p>My orders</p>
+    <p>Return and Refund</p>
+    <p>Shopping Policy</p>
+    <p>Privacy Policy</p>
+    <p>Terms & Conditions</p>
+    <p>FAQs</p>
+  </div>
+  <div class="col-sm-2">
+    <h4>My Account</h4>
+    <p>Sign In</p>
+     <p>View Card</p>
+      <p>My Wishlist</p>
+       <p>Track Order</p>
+        <p>Account Deals</p>
+  </div>
+  <div class="col-sm-3 " style="padding-right: 100px;">
+    <h4>Contact Us</h4>
+    <p><i class="fa-solid fa-location-dot"></i>123, Lucknow,<br>Lucknow Up-226001</p>
+    <p><i class="fa-solid fa-phone"></i>+91-8090604007</p>
+    <p><i class="fa-solid fa-envelope"></i>support@gmail.com</p>
+  </div>
+</div>
+
+<div class="row text-center py-2 mt-2 a bg-light ">
+  <div class="col-sm-8">
+    <i class="fa-regular fa-clock"></i> 2015 ShopeEase. All Rights
+  </div>
+   <div class="col-sm-1 test-center py-2">
+<h4 class="text-primary"><i>VISA</i></h4>
+   </div>
+    <div class="col-sm-1 test-center py-2 fw-bold">
+     <h4><i class="fa-solid fa-comments text-mycolor"></i></h4>
+    </div>
+     <div class="col-sm-1 test-center py-2 fw-bold">
+      <h5><i>RuPay<b class="text-danger">s</b></i></h5>
+     </div>
+      <div class="col-sm-1 test-center py-2 fw-bold">
+        <h4><i>UPI</i></h4>
+      </div>
+</div>
+
+
+  </div>
+     <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
